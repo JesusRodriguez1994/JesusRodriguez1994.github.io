@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Quicksand');
+
+header{
+  text-align: center;
+  background-color: black;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 50px;
+  color: white;
+  font-family: quicksand;
+}
+header div {
+  color: white;
+  font-family: Dancing Script;
+  font-size: 20px;
+}
+
+header img {
+  border: solid black;
+  border-radius: 50%;
+}
+
+nav{
+  text-align: center;
+}
+nav ul li{
+  display: inline;
+  text-decoration: none;
+  border:solid black .5px;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+  font-family: quicksand;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.lines{
+  border: solid black 1px;
+  margin-top: 5px;
+}
+section article {
+}
+.box{
+  text-align: left;
+  border: solid black 1px;
+  padding: 5px;
+  width: 20%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  font-family: quicksand;
+  background:white;
+}
+.indent{
+  text-indent: 20px;
+}
+.pictures{
+  margin-top: -50%;
+  margin-left: 25%;
+  
+}
+
+footer{
+  text-align: center;
+  font-family: quicksand;
+  color: white;
+}
+
+.spaces{
+  margin-top: 50px;
+}
+
+.spaces2{
+  margin-top: -89%;
+  margin-bottom: 10%;
+}
+
+.spaces3{
+  margin-bottom: 13%;
+}
+.spaces4{
+}
+.reff{
+  margin-top: 40px;
+  text-align: center;
+  font-family: quicksand;
+}
+
+.decoff{
+  text-decoration:none;
+  color:white;
+}
+#background{
+  width: 100%; 
+  height: 100%; 
+  position: fixed; 
+  left: 0px; 
+  top: 0px; 
+  z-index: -1;
+}
